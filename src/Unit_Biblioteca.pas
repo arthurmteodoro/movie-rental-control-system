@@ -1455,6 +1455,7 @@ begin
              end
         else begin
                filmes[existe].exemplares := IntToStr(StrToInt(filmes[existe].exemplares) + filme_comprar[i].quant);
+               filmes[existe].preco := FloatToStr(StrToFloat(filmes[existe].preco)+preco);
                EditaNoArquivo;
              end;
     end;

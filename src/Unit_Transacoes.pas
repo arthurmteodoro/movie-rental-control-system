@@ -85,6 +85,7 @@ begin
   Frm_Entrada := TFrm_Entrada.Create(Frm_Principal.pnl_main);
   Frm_Entrada.Parent := Frm_Principal.pnl_main;
   Frm_Transacoes.Destroy;
+  SetLength(filme_comprar,0);
   Frm_Entrada.CompletaCBox;
   Frm_Entrada.SetaGrid;
   Frm_Principal.lbl_caminho.Caption := 'Menu/Transações/Entrada de Filmes';

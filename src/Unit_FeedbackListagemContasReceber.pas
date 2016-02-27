@@ -134,7 +134,7 @@ var
   date : TDate;
 begin
   CDS_ContasReceber.Open;
-  for i := length(contas_receber)-1 to 0 do
+  for i := length(contas_receber)-1 downto 0 do
     begin
       CDS_ContasReceber.Insert;
       CDS_ContasReceber.Fields[0].Value := contas_receber[i].Cod_Cliente;

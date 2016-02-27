@@ -11,8 +11,8 @@
 			<MultaLocadora>1,50</MultaLocadora>
 			<NomeResponsavelLocadora>Teste</NomeResponsavelLocadora>
 			<TelefoneResponsavelLocadora>(12)3456-7899</TelefoneResponsavelLocadora>
-			<Caixa>9732.05</Caixa>
-			<TotalLocado>4</TotalLocado>
+			<Caixa>9587.75</Caixa>
+			<TotalLocado>12</TotalLocado>
 		</registro>
 	</tabela>
 	<tabela = cliente>
@@ -69,27 +69,27 @@
 		<registro>
 			<CodigoFilme>F000001</CodigoFilme>
 			<DescricaoFilme>Filme1</DescricaoFilme>
-			<ExemplaresFilme>99</ExemplaresFilme>
+			<ExemplaresFilme>97</ExemplaresFilme>
 			<CodCatFilme>CAT000001</CodCatFilme>
 			<LinguaFilme>Legendado</LinguaFilme>
 			<PrecoFilme>0</PrecoFilme>
 			<DeleteFilme>FALSE</DeleteFilme>
-			<VezesFilme>1</VezesFilme>
+			<VezesFilme>2</VezesFilme>
 		</registro>
 		<registro>
 			<CodigoFilme>F000002</CodigoFilme>
 			<DescricaoFilme>Filme2</DescricaoFilme>
-			<ExemplaresFilme>99</ExemplaresFilme>
+			<ExemplaresFilme>97</ExemplaresFilme>
 			<CodCatFilme>CAT000002</CodCatFilme>
 			<LinguaFilme>Dublado</LinguaFilme>
 			<PrecoFilme>0</PrecoFilme>
 			<DeleteFilme>FALSE</DeleteFilme>
-			<VezesFilme>1</VezesFilme>
+			<VezesFilme>2</VezesFilme>
 		</registro>
 		<registro>
 			<CodigoFilme>F000003</CodigoFilme>
 			<DescricaoFilme>Filme3</DescricaoFilme>
-			<ExemplaresFilme>99</ExemplaresFilme>
+			<ExemplaresFilme>98</ExemplaresFilme>
 			<CodCatFilme>CAT000003</CodCatFilme>
 			<LinguaFilme>Legendado</LinguaFilme>
 			<PrecoFilme>0</PrecoFilme>
@@ -99,10 +99,50 @@
 		<registro>
 			<CodigoFilme>F000004</CodigoFilme>
 			<DescricaoFilme>Filme4</DescricaoFilme>
-			<ExemplaresFilme>99</ExemplaresFilme>
+			<ExemplaresFilme>98</ExemplaresFilme>
 			<CodCatFilme>CAT000004</CodCatFilme>
 			<LinguaFilme>Dublado</LinguaFilme>
 			<PrecoFilme>0</PrecoFilme>
+			<DeleteFilme>FALSE</DeleteFilme>
+			<VezesFilme>1</VezesFilme>
+		</registro>
+		<registro>
+			<CodigoFilme>F000005</CodigoFilme>
+			<DescricaoFilme>Filme5</DescricaoFilme>
+			<ExemplaresFilme>3</ExemplaresFilme>
+			<CodCatFilme>CAT000004</CodCatFilme>
+			<LinguaFilme>Legendado</LinguaFilme>
+			<PrecoFilme>40,3888888888889</PrecoFilme>
+			<DeleteFilme>FALSE</DeleteFilme>
+			<VezesFilme>2</VezesFilme>
+		</registro>
+		<registro>
+			<CodigoFilme>F000006</CodigoFilme>
+			<DescricaoFilme>Filme6</DescricaoFilme>
+			<ExemplaresFilme>9</ExemplaresFilme>
+			<CodCatFilme>CAT000004</CodCatFilme>
+			<LinguaFilme>Legendado</LinguaFilme>
+			<PrecoFilme>100,388888888889</PrecoFilme>
+			<DeleteFilme>FALSE</DeleteFilme>
+			<VezesFilme>1</VezesFilme>
+		</registro>
+		<registro>
+			<CodigoFilme>F000007</CodigoFilme>
+			<DescricaoFilme>Filme7</DescricaoFilme>
+			<ExemplaresFilme>3</ExemplaresFilme>
+			<CodCatFilme>CAT000001</CodCatFilme>
+			<LinguaFilme>Legendado</LinguaFilme>
+			<PrecoFilme>75,4390243902439</PrecoFilme>
+			<DeleteFilme>FALSE</DeleteFilme>
+			<VezesFilme>2</VezesFilme>
+		</registro>
+		<registro>
+			<CodigoFilme>F000008</CodigoFilme>
+			<DescricaoFilme>Filme8</DescricaoFilme>
+			<ExemplaresFilme>9</ExemplaresFilme>
+			<CodCatFilme>CAT000003</CodCatFilme>
+			<LinguaFilme>Dublado</LinguaFilme>
+			<PrecoFilme>70,4390243902439</PrecoFilme>
 			<DeleteFilme>FALSE</DeleteFilme>
 			<VezesFilme>1</VezesFilme>
 		</registro>
@@ -152,7 +192,7 @@
 			<EnderecoFuncionario>R. Funcionario2, 2</EnderecoFuncionario>
 			<TelefoneFuncionario>(22)2222-2222</TelefoneFuncionario>
 			<DeleleFuncionario>FALSE</DeleleFuncionario>
-			<TotalLocado>2</TotalLocado>
+			<TotalLocado>3</TotalLocado>
 		</registro>
 		<registro>
 			<CodigoFuncionario>FUN000003</CodigoFuncionario>
@@ -162,7 +202,7 @@
 			<EnderecoFuncionario>R. Funcionario3, 3</EnderecoFuncionario>
 			<TelefoneFuncionario>(33)3333-3333</TelefoneFuncionario>
 			<DeleleFuncionario>FALSE</DeleleFuncionario>
-			<TotalLocado>0</TotalLocado>
+			<TotalLocado>4</TotalLocado>
 		</registro>
 		<registro>
 			<CodigoFuncionario>FUN000004</CodigoFuncionario>
@@ -172,7 +212,7 @@
 			<EnderecoFuncionario>R. Funcionario4, 4</EnderecoFuncionario>
 			<TelefoneFuncionario>(44)4444-4444</TelefoneFuncionario>
 			<DeleleFuncionario>FALSE</DeleleFuncionario>
-			<TotalLocado>0</TotalLocado>
+			<TotalLocado>3</TotalLocado>
 		</registro>
 	</tabela>
 	<tabela = fornecedor>
@@ -222,9 +262,161 @@
 		</registro>
 	</tabela>
 	<tabela = contas_receber>
+		<registro>
+			<CodigoCliente>C000003</CodigoCliente>
+			<ValorParcela>10,5 </ValorParcela>
+			<DataParcela>21/03/2016</DataParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataPagamento>-</DataPagamento>
+		</registro>
+		<registro>
+			<CodigoCliente>C000003</CodigoCliente>
+			<ValorParcela>10,5 </ValorParcela>
+			<DataParcela>21/04/2016</DataParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataPagamento>-</DataPagamento>
+		</registro>
+		<registro>
+			<CodigoCliente>C000004</CodigoCliente>
+			<ValorParcela>11,5 </ValorParcela>
+			<DataParcela>21/03/2016</DataParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataPagamento>-</DataPagamento>
+		</registro>
+		<registro>
+			<CodigoCliente>C000004</CodigoCliente>
+			<ValorParcela>11,5 </ValorParcela>
+			<DataParcela>21/04/2016</DataParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataPagamento>-</DataPagamento>
+		</registro>
 	</tabela>
 	<tabela = devolucao>
+		<registro>
+			<CodCliente>C000001</CodCliente>
+			<CodFilme>F000001</CodFilme>
+			<DataLocacao>20/02/2016</DataLocacao>
+			<DataDevolucao>27/02/2016</dataDevolucao>
+			<TipoLocacao>A vista</TipoLocacao>
+			<CodFuncionario>FUN000004</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000001</CodCliente>
+			<CodFilme>F000002</CodFilme>
+			<DataLocacao>20/02/2016</DataLocacao>
+			<DataDevolucao>27/02/2016</dataDevolucao>
+			<TipoLocacao>A vista</TipoLocacao>
+			<CodFuncionario>FUN000004</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000002</CodCliente>
+			<CodFilme>F000003</CodFilme>
+			<DataLocacao>20/02/2016</DataLocacao>
+			<DataDevolucao>27/02/2016</dataDevolucao>
+			<TipoLocacao>A vista</TipoLocacao>
+			<CodFuncionario>FUN000003</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000002</CodCliente>
+			<CodFilme>F000004</CodFilme>
+			<DataLocacao>20/02/2016</DataLocacao>
+			<DataDevolucao>27/02/2016</dataDevolucao>
+			<TipoLocacao>A vista</TipoLocacao>
+			<CodFuncionario>FUN000003</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000002</CodCliente>
+			<CodFilme>F000001</CodFilme>
+			<DataLocacao>20/02/2016</DataLocacao>
+			<DataDevolucao>27/02/2016</dataDevolucao>
+			<TipoLocacao>A vista</TipoLocacao>
+			<CodFuncionario>FUN000003</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000003</CodCliente>
+			<CodFilme>F000005</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000002</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000003</CodCliente>
+			<CodFilme>F000006</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000002</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000003</CodCliente>
+			<CodFilme>F000002</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000002</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000003</CodCliente>
+			<CodFilme>F000007</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000002</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000004</CodCliente>
+			<CodFilme>F000008</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000001</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000004</CodCliente>
+			<CodFilme>F000007</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000001</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
+		<registro>
+			<CodCliente>C000004</CodCliente>
+			<CodFilme>F000005</CodFilme>
+			<DataLocacao>21/02/2016</DataLocacao>
+			<DataDevolucao>28/02/2016</dataDevolucao>
+			<TipoLocacao>A Prazo</TipoLocacao>
+			<CodFuncionario>FUN000001</CodFuncionario>
+			<Devolvido>FALSE</Devolvido>
+		</registro>
 	</tabela>
 	<tabela = contas_pagar>
+		<registro>
+			<CodigoFornecedor>FOR000002</CodigoFornecedor>
+			<DataDaCompra>20/02/2016</DataDaCompra>
+			<ValorParcela>102,5 </ValorParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataDeVencimento>20/03/2016</DataDeVencimento>
+			<DataDePagamento>-</DataDePagamento>
+		</registro>
+		<registro>
+			<CodigoFornecedor>FOR000002</CodigoFornecedor>
+			<DataDaCompra>20/02/2016</DataDaCompra>
+			<ValorParcela>102,5 </ValorParcela>
+			<PagaParcela>FALSE</PagaParcela>
+			<DataDeVencimento>20/04/2016</DataDeVencimento>
+			<DataDePagamento>-</DataDePagamento>
+		</registro>
 	</tabela>
 </dados>

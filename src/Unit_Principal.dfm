@@ -255,7 +255,6 @@ object frm_Principal: Tfrm_Principal
     TabOrder = 3
   end
   object relogio: TTimer
-    Enabled = False
     OnTimer = relogioTimer
     Left = 232
     Top = 16
